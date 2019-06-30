@@ -52,7 +52,5 @@ app.post('/api/amazon', async (req, res) => {
 	}
 });
 app.listen(process.env.port, '0.0.0.0', () => {
-    console.log("*** Updating user-agents ***")
-    // execSync('npm update user-agents');
-	console.log('afferys_api listening on port ' + process.env.port);
+	console.log('amazon_api listening on port ' + process.env.port);
 });
