@@ -1,0 +1,26 @@
+{
+  "name": "amazon_scraping",
+  "version": "1.0.0",
+  "description": "Scrape product details from amazon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maheswaran007/product_scrapping_api.git"
+  },
+  "author": "Maheswaran",
+  "dependencies": {
+    "async": "^3.1.0",
+    "express": "^4.17.1",
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "memory-cache": "^0.2.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maheswaran007/product_scrapping_api/issues"
+  },
+  "homepage": "https://github.com/Maheswaran007/product_scrapping_api#readme"
+}
